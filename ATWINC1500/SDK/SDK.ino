@@ -1,5 +1,5 @@
 /*
-  PubNub example using ATWINC1500 (WiFi Shield or MKR1000 WiFi).
+  PubNub example using ATWINC1500.
 */
 
 
