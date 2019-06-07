@@ -1,6 +1,4 @@
-/*
-  PubNub example using ATWINC1500.
-*/
+// PubNub example using ATWINC1500.
 
 #include <WiFi101.h>
 #define PubNub_BASE_CLIENT WiFiClient
@@ -31,7 +29,7 @@ void setup() {
 }
 
 void loop() {
-    { // Subscribe
+    { // Subscribe.
         PubSubClient* sclient = PubNub.subscribe(channel); // Subscribe for messages.
         if (0 == sclient) { 
             Serial.println("Error subscribing to channel.");
@@ -43,7 +41,7 @@ void loop() {
         }
         sclient->stop();
     }
-    { // Publish
+    { // Publish.
         char msg[] = "\"Hello world\"";
         WiFiClient* client = PubNub.publish(channel, msg); // Publish message to channel.
         if (0 == client) {
