@@ -1,6 +1,4 @@
-/*
-  PubNub MQTT example using ATWINC1500.
-*/
+// PubNub MQTT example using ATWINC1500.
 
 #include <WiFi101.h>
 #include <PubSubClient.h>
