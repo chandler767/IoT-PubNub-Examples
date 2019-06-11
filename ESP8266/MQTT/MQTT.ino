@@ -1,4 +1,4 @@
-// PubNub MQTT example using ESP2866.
+// PubNub MQTT example using ESP8266.
 
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>

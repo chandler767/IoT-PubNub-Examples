@@ -1,4 +1,4 @@
-// PubNub example using ESP2866.
+// PubNub example using ESP8266.
 
 #include <ESP8266WiFi.h>
 #define PubNub_BASE_CLIENT WiFiClient
